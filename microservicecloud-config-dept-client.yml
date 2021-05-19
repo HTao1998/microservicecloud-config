@@ -35,7 +35,7 @@ eureka:
       #defaultZone: http://localhost:7001/eureka #单机版
        defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: microservicecloud-dept8001   #设置服务主机映射名，可在Eureka查看
+    instance-id: dept-8001.com   #设置服务主机映射名，可在Eureka查看
     prefer-ip-address: true     #在Eureka可现实主机ip地址
    
 info:   #在这个配置文件里面追加关于我们信息的描述
@@ -75,7 +75,7 @@ eureka:
       #defaultZone: http://localhost:7001/eureka #单机版
        defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: microservicecloud-dept8001   #设置服务主机映射名，可在Eureka查看
+    instance-id: dept-8001.com   #设置服务主机映射名，可在Eureka查看
     prefer-ip-address: true     #在Eureka可现实主机ip地址
    
 info:   #在这个配置文件里面追加关于我们信息的描述
