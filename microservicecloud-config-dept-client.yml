@@ -47,7 +47,7 @@ info:   #在这个配置文件里面追加关于我们信息的描述
 server:
   port: 8001
 spring:
-   profiles: dev
+   profiles: test
    application:
     name: microservicecloud-config-dept-client     #微服务注册名字
    datasource:
